@@ -1,0 +1,80 @@
+theme = "LoveIt-master"
+baseURL = "https://osee-security-lab.pages.dev/"
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+
+[params]
+  defaultTheme = "auto"
+  [params.author]
+    name = "Osee"
+
+[languages]
+  [languages.fr]
+    weight = 1
+    locale = "fr"
+    label = "Français"
+    title = "Osee | security lab & Notes Linux"
+    [languages.fr.params]
+      description = "Security Lab : travaux pratiques sur la sécurité Linux, le confinement, Docker et la chasse aux menaces."
+      [languages.fr.params.header.title]
+        name = "Osee | Labs & Notes"
+      [languages.fr.params.home.profile]
+        enable = true
+        title = "Osee | Security lab & Linux Notes"
+        subtitle = "Notes techniques, Linux & Administration Système"
+        social = true
+      [languages.fr.params.home.posts]
+        enable = true
+        paginate = 6
+    [[languages.fr.menu.main]]
+      identifier = "posts"
+      name = "Articles"
+      url = "/posts/"
+      weight = 1
+    [[languages.fr.menu.main]]
+      identifier = "tags"
+      name = "Tags"
+      url = "/tags/"
+      weight = 2
+    [[languages.fr.menu.main]]
+      identifier = "categories"
+      name = "Catégories"
+      url = "/categories/"
+      weight = 3
+
+  [languages.en]
+    weight = 2
+    locale = "en"
+    label = "English"
+    title = "Osee | Security Labs & Linux Notes"
+    [languages.en.params]
+      description = ""Hands-on Security Lab covering Linux isolation, container hardening, and threat hunting by Osee.""
+      [languages.en.params.header.title]
+        name = "Osee | Labs & Notes"
+      [languages.en.params.home.profile]
+        enable = true
+        title = "Osee"
+        subtitle = "Technical Notes, Linux & System Administration"
+        social = true
+      [languages.en.params.home.posts]
+        enable = true
+        paginate = 6
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      name = "Posts"
+      url = "/en/posts/"
+      weight = 1
+    [[languages.en.menu.main]]
+      identifier = "tags"
+      name = "Tags"
+      url = "/en/tags/"
+      weight = 2
+    [[languages.en.menu.main]]
+      identifier = "categories"
+      name = "Categories"
+      url = "/en/categories/"
+      weight = 3
+[permalinks]
+  [permalinks.page]
+    posts = "/posts/:slug/"
