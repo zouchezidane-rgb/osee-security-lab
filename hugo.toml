@@ -1,4 +1,4 @@
-theme = "LoveIt-master"
+﻿theme = "LoveIt-master"
 baseURL = "https://osee-security-lab.pages.dev/"
 defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = false
@@ -13,16 +13,16 @@ enableRobotsTXT = true
   [languages.fr]
     weight = 1
     locale = "fr"
-    label = "Français"
+    label = "FranÃ§ais"
     title = "Osee | security lab & Notes Linux"
     [languages.fr.params]
-      description = "Security Lab : travaux pratiques sur la sécurité Linux, le confinement, Docker et la chasse aux menaces."
+      description = "Security Lab : travaux pratiques sur la sÃ©curitÃ© Linux, le confinement, Docker et la chasse aux menaces."
       [languages.fr.params.header.title]
         name = "Osee | Labs & Notes"
       [languages.fr.params.home.profile]
         enable = true
         title = "Osee | Security lab & Linux Notes"
-        subtitle = "Notes techniques, Linux & Administration Système"
+        subtitle = "Notes techniques, Linux & Administration SystÃ¨me"
         social = true
       [languages.fr.params.home.posts]
         enable = true
@@ -39,7 +39,7 @@ enableRobotsTXT = true
       weight = 2
     [[languages.fr.menu.main]]
       identifier = "categories"
-      name = "Catégories"
+      name = "CatÃ©gories"
       url = "/categories/"
       weight = 3
 
@@ -49,7 +49,7 @@ enableRobotsTXT = true
     label = "English"
     title = "Osee | Security Labs & Linux Notes"
     [languages.en.params]
-      description = ""Hands-on Security Lab covering Linux isolation, container hardening, and threat hunting by Osee.""
+      description = "Hands-on Security Lab covering Linux isolation, container hardening, and threat hunting by Osee.""
       [languages.en.params.header.title]
         name = "Osee | Labs & Notes"
       [languages.en.params.home.profile]
