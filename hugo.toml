@@ -1,5 +1,5 @@
 theme = "LoveIt-master"
-baseURL = "https://osee-security-lab.pages.dev/"
+baseURL = "https://osee-security-lab.zouchezidane.workers.dev/"
 defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
@@ -13,16 +13,16 @@ enableRobotsTXT = true
   [languages.fr]
     weight = 1
     locale = "fr"
-    label = "FranÃ§ais"
+    label = "Français"
     title = "Osee | security lab & Notes Linux"
     [languages.fr.params]
-      description = "Security Lab : travaux pratiques sur la sÃ©curitÃ© Linux, le confinement, Docker et la chasse aux menaces."
+      description = "Security Lab : travaux pratiques sur la sécurité Linux, le confinement, Docker et la chasse aux menaces."
       [languages.fr.params.header.title]
         name = "Osee | Labs & Notes"
       [languages.fr.params.home.profile]
         enable = true
         title = "Osee | Security lab & Linux Notes"
-        subtitle = "Notes techniques, Linux & Administration SystÃ¨me"
+        subtitle = "Notes techniques, Linux & Administration Système"
         social = true
       [languages.fr.params.home.posts]
         enable = true
@@ -39,7 +39,7 @@ enableRobotsTXT = true
       weight = 2
     [[languages.fr.menu.main]]
       identifier = "categories"
-      name = "CatÃ©gories"
+      name = "Catégories"
       url = "/categories/"
       weight = 3
 
