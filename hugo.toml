@@ -49,7 +49,7 @@ enableRobotsTXT = true
     label = "English"
     title = "Osee | Security Labs & Linux Notes"
     [languages.en.params]
-      description = "Hands-on Security Lab covering Linux isolation, container hardening, and threat hunting by Osee.""
+      description = "Hands-on Security Lab covering Linux isolation, container hardening, and threat hunting by Osee."
       [languages.en.params.header.title]
         name = "Osee | Labs & Notes"
       [languages.en.params.home.profile]
