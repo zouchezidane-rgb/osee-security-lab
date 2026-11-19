@@ -78,3 +78,7 @@ enableRobotsTXT = true
 [permalinks]
   [permalinks.page]
     posts = "/posts/:slug/"
+[params.page]
+  # Hide the "#" anchor symbol next to headings
+  [params.page.heading]
+    enable = false
